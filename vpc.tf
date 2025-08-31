@@ -1,7 +1,3 @@
-var "aws_region"{
-    region = "us-east-1"
-}
-
 module "vpc" {
   source    = "./modules/vpc"
 }
